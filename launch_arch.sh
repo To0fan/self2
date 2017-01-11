@@ -42,8 +42,8 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  cd luarocks-2.2.2
  ./configure; sudo make bootstrap
  cd ..
-sudo luarocks install serpent -y
-sudo luarocks install redis-lua -y
+sudo luarocks install serpent
+sudo luarocks install redis-lua
 chmod 777 tg
 RED='\033[0;31m'
 NC='\033[0m'
