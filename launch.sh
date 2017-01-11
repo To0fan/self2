@@ -29,7 +29,7 @@ sudo apt-get install python3-dev -y
 sudo apt-get install software-properties-common -y
 sudo apt-get install python-software-properties -y
 sudo apt-get install gcc-6 -y
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test 
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
@@ -42,8 +42,8 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  cd luarocks-2.2.2
  ./configure; sudo make bootstrap
  cd ..
-sudo luarocks install serpent -y
-sudo luarocks install redis-lua -y
+sudo luarocks install serpent
+sudo luarocks install redis-lua
 chmod 777 tg
 RED='\033[0;31m'
 NC='\033[0m'
