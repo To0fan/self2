@@ -48,6 +48,13 @@ chmod +x launch_arch.sh
 
 * Use $help command to receive commands help message
 
+# TODO list for python branch:
+
+```bash
+- [x] *write utils*
+- [ ] *write base file*
+- [ ] *finding good database*
+```
 
 # [BeatBotTeam](telegram.me/beatBot_Channel)
 
