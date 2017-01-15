@@ -41,7 +41,7 @@ chmod +x launch_arch.sh
 
 ./launch_arch.sh install
 
-./launch_arch.sh install
+./launch_arch.sh 
 ```
 
 # Commands
