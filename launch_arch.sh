@@ -30,9 +30,7 @@ sudo pacman -S install software-properties-common -y
 sudo pacman -S install python-software-properties -y
 sudo pacman -S install gcc-6 -y
 sudo yaourt -S ubuntu-toolchain-r/test
-sudo pacman update
-sudo dpacman upgrade
-sudo pacman dist-upgrade
+sudo pacman -Sy
 sudo ppa-purge
 sudo pip3 install redis
 sudo service redis-server restart
