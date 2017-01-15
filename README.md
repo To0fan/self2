@@ -13,7 +13,7 @@ chmod +x launch.sh
 
 ./launch.sh install
 
-python run.py
+./launch.sh
 ```
 # Installation on fedora
 ```sh
@@ -27,7 +27,7 @@ chmod +x launch_fedora.sh
 
 ./launch_fedora.sh install
 
-python run.py
+./launch_fedora.sh 
 ```
 # Installation on ArchLinux
 ```sh
@@ -41,7 +41,7 @@ chmod +x launch_arch.sh
 
 ./launch_arch.sh install
 
-python run.py
+./launch_arch.sh install
 ```
 
 # Commands
